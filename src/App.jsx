@@ -2,10 +2,12 @@ import Hero from "./components/Hero";
 import Menu from "./components/Menu";
 import ArcadeZone from "./components/ArcadeZone";
 import Contact from "./components/ContactForm";
+import Navbar from "./components/Navbar";
 
 function App() {
   return (
     <>
+      <Navbar />
       <Hero />
       <Menu />
       <ArcadeZone />

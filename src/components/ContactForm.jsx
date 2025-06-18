@@ -1,6 +1,6 @@
 export default function Contact() {
   return (
-    <section className="py-5 bg-light" id="contact">
+    <section className="py-5 bg-light text-dark" id="contact">
       <div className="container">
         <h2 className="mb-4 text-center">📬 Contact Us</h2>
         <p className="text-center mb-5">
@@ -8,8 +8,7 @@ export default function Contact() {
           coffee? Drop us a message!
         </p>
         <div className="row justify-content-center">
-          <div className="col-md-8">
-            /
+          <div className="col-md-8">            
             <form>
               <div className="mb-3">
                 <label htmlFor="name" className="form-label">
