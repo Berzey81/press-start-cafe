@@ -3,6 +3,7 @@ import Menu from "./components/Menu";
 import ArcadeZone from "./components/ArcadeZone";
 import Contact from "./components/ContactForm";
 import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Menu />
       <ArcadeZone />
       <Contact />
+      <Footer />
     </>
   );
 }

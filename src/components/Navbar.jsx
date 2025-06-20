@@ -4,9 +4,7 @@ export default function Navbar() {
   return (
     <nav className="navbar navbar-expand-lg navbar-dark bg-dark fixed-top shadow">
       <div className="container">
-        <a className="navbar-brand fw-bold" href="#home">
-          🎮 Press Start Café
-        </a>
+      <a className="navbar-brand" href="#">Press Start Café</a>
         <button
           className="navbar-toggler"
           type="button"
