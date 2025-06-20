@@ -1,0 +1,20 @@
+.hero {
+  min-height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("../assets/hero-pixel-cafe.png"); // local image
+  background-size: cover;
+  background-position: center;
+  padding: 4rem 1rem;
+   
+
+  h1 {
+    font-family: "Press Start 2P", cursive;
+    text-shadow: 2px 2px #ff006e;
+    margin-top: 9rem;
+  }
+
+  p {
+    font-size: 1.25rem;
+    color: #ccc;
+  }
+}
