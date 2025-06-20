@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Navbar() {
   return (
-    <nav className="navbar navbar-expand-lg navbar-dark bg-dark fixed-top shadow">
+    <nav className="navbar navbar-expand-lg navbar-dark sticky-top bg-dark shadow">
       <div className="container">
       <a className="navbar-brand" href="#">Press Start Café</a>
         <button

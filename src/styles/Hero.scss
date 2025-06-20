@@ -1,20 +1,31 @@
 .hero {
   min-height: 100vh;
-  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-    url("../assets/hero-pixel-cafe.png"); // local image
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  padding: 2rem;
+
+  background: linear-gradient(
+      rgba(0, 0, 0, 0.7),
+      rgba(0, 0, 0, 0.7)
+    ),
+    url('../assets/hero-pixel-cafe.png'); // desktop background here
+
   background-size: cover;
   background-position: center;
-  padding: 4rem 1rem;
-   
+  background-repeat: no-repeat;
+}
 
-  h1 {
-    font-family: "Press Start 2P", cursive;
-    text-shadow: 2px 2px #ff006e;
-    margin-top: 9rem;
-  }
 
-  p {
-    font-size: 1.25rem;
-    color: #ccc;
+@media (max-width: 768px) {
+  .hero {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+      url("../assets/hero-mobile.png"); // mobile background here
+    min-height: 80vh;
+    background-position: center top;
+    padding: 4rem 1rem;
+    padding-top: 20rem;
   }
 }
