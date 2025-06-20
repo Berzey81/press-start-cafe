@@ -1,11 +1,18 @@
+import React from "react";
+import "../styles/Hero.scss";
+
 export default function Hero() {
-    return(
-        <header className= "text-center py-5 bg-dark text light">
-            <div className="container">
-                <h1 className = "display-3 fw-bold">🎮 Press Start Café</h1>
-                <p className = "lead">Level up your day with legendary coffee and co-op vibes.</p>
-                <a href= "#contact" className="btn btn-primary btn-lg mt-3">Book a table</a>
-            </div>
-        </header>
-    );
+  return (
+    <section id="home" className="hero d-flex align-items-center text-light">
+      <div className="container text-center">
+        <h1 className="display-4 fw-bold">Press Start Café</h1>
+        <p className="lead mb-4">
+          Where retro games and fresh brews come together.
+        </p>
+        <a href="#menu" className="btn btn-warning btn-lg px-4">
+          View Menu
+        </a>
+      </div>
+    </section>
+  );
 }
